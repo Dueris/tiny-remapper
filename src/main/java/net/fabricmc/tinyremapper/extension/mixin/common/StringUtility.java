@@ -97,7 +97,7 @@ public final class StringUtility {
 		}
 
 		try {
-			Class.forName(className.replace('/', '.'));
+			// Class.forName(className.replace('/', '.')); // Dueris - we gonna try this
 			return true;
 		} catch (Exception e) {
 			return false;
